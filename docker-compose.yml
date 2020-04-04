@@ -1,0 +1,11 @@
+version: '2.0'
+services:
+  nats:
+    image: nats
+    ports:
+      - 4222:4222
+      - 8222:8222
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
